@@ -1,0 +1,33 @@
+{
+  "title": "tmux escape",
+  "rules": [
+    {
+      "description": "tmux escape",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "b",
+            "modifiers": [
+                "control"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

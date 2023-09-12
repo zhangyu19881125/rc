@@ -1,0 +1,58 @@
+{
+  "title": "ctrl + h/l to ctrl + tab",
+  "rules": [
+    {
+      "description": "Change Ctrl + h/l to Ctrl + Tab",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "tab",
+            "modifiers": [
+                "control",
+                "shift"
+              ]
+            
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "tab",
+            "modifiers": [
+                "control"
+              ]
+            
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

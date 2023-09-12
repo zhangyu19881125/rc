@@ -1,0 +1,126 @@
+{
+  "title": "open applications",
+  "rules": [
+    {
+      "description": "open chrome",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "shell_command": "open -a \"Google Chrome\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "open iterm2",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "shell_command": "open -a \"iTerm\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "open 企业微信",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "shell_command": "open -a \"企业微信\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "open Evernote",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "4",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "shell_command": "open -a \"Evernote\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "open Finder",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "5",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "shell_command": "open -a \"Finder\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
